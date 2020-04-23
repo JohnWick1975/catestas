@@ -1,0 +1,26 @@
+.card {
+    text-align: center;
+    width: 15%;
+    min-width: 250px;
+    background-color: silver;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.card > span {
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px 10px 10px;
+}
+
+.card > p {
+    color: grey;
+}
+
+.card > img {
+    border-radius: 20px;
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+}
